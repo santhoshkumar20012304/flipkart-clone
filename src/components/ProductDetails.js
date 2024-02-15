@@ -1,10 +1,9 @@
-import { useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 
-const ProductDetails = ({ products, addToCart }) => {
+const ProductDetails = ({ products, addToCart,quantity }) => {
   const { productId } = useParams();
-  const [quantity] = useState(1);
+ 
 
   const product = products.find(
     (product) => product.id === parseInt(productId)
