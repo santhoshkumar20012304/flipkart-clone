@@ -72,7 +72,7 @@ const NavBar = ({ handleSearchInput, searchInput, cartItems }) => {
                     <i className="bi bi-headset"></i> 24X7 Customer Care
                   </Dropdown.Item>
                   <Dropdown.Item href="#/action-3">
-                    <i class="bi bi-graph-up-arrow"></i> Advertise
+                    <i className="bi bi-graph-up-arrow"></i> Advertise
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>

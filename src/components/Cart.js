@@ -40,7 +40,7 @@ const Cart = ({
                   </td>
                   <td>{item.price}</td>
                   <td>
-                    <i class="bi bi-currency-rupee"></i>
+                    <i className="bi bi-currency-rupee"></i>
                     {(item.price * item.quantity).toFixed(2)}
                   </td>
                   <td>
